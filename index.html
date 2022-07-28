@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Valenti Apartamentos</title>
+</head>
+<body>
+    <header class="headerPrincipal">
+        <div class="container">
+            <h1 class="headerPrincipal-titulo">
+                <img src="imagenes/valenti.PNG" alt="Logo Valenti Apartamentos" class="valentiPrincipal">
+            </h1>
+            <nav class="headerPrincipal-nav">
+                <a class="headerPrincipal-nav-link" href="#">INICIO</a>
+                <a class="headerPrincipal-nav-link" href="#">NUESTRA EMPRESA</a>
+                <a class="headerPrincipal-nav-link" href="#">NUESTRO EQUIPO</a>
+                <a class="headerPrincipal-nav-link" href="#">PROYECTO</a> <!--lista-->
+                <a class="headerPrincipal-nav-link" href="#">CÓMO COMPRAR</a> <!--lista-->
+                <a class="headerPrincipal-nav-link" href="#">CONTACTO</a>
+            </nav>
+            <!--Imagen a modificar-->
+            <h1 class="headerPrincipal-titulo">
+                <img src="imagenes/grupoValor.PNG" alt="Logo Valenti Apartamentos" class="grupoValor">
+            </h1>
+        </div>
+    </header>
+
+    <main class="contenidoPrincipal">
+        <div class="contenidoPrincipal-galeria">
+            <div class="contenidoPrincipal-galeria-imagen">
+                <img src="imagenes/banner_principal_1.svg" alt="" class="imagenBanner">
+            </div>
+        </div>
+
+        <section class="videoSobre">
+            <div class="container">
+                <div class="videoSobre-descripcion">
+                    <div class="videoSobre-descripcion-titulo">
+                        <h2>¡En Valenti tienes la oportunidad<br>de hacer crecer tu negocio!</h2>
+                    </div>
+                    <div class="videoSobre-descripcion-tabBar">
+                        <img src="imagenes/tab_bar.svg" alt="tab bar">
+                    </div>
+                    <div class="videoSobre-descripcion-complemento">
+                        <p>Locales comerciales en una zona estratégica<br>para el desarrollo de un proyecto</p>
+                    </div>
+                </div>
+                <div class="videoSobre-video">
+                    <iframe src="https://drive.google.com/file/d/1jk_cqC2fIMvo7G-bepaTkfkDFGe3QVtb/preview" width="560" height="315" allow="autoplay" class="video-videoProyecto"></iframe>
+                </div>
+                <div class="videoSobre-logo_whatsapp">
+                    <img src="imagenes/logo_whatsapp.svg" alt="Logo WhatsApp">
+                </div>
+            </div>
+        </section>
+
+        <section class="formInversion">
+            <div class="container">
+                <div class="formInversion-imagen">
+                    <img src="imagenes/banner_3.svg" alt="Imagen banner 3 Valenti" class="imagenBanner">
+                </div>
+                
+                <div class="formInversion-contenedor">
+                    <h2>¡HAZ TU INVERSIÓN!</h2>
+                    <p>Dejanos tus datos y recibe una atención personalizada</p>
+
+                    <form class="formInversion-formulario">
+                        <label for="nombre-usuario" class="formInversion-formulario-label">Nombre</label>
+                        <input type="text" size="30" id="nombre-usuario" name="nombre-usuario" class="formInversion-formulario-input" required>
+
+                        <label for="telefono-usuario" class="formInversion-formulario-label">Teléfono</label>
+                        <input type="tel" id="telefono-usuario" name="telefono-usuario" class="formInversion-formulario-input" required>
+
+                        <label for="email-usuario" class="formInversion-formulario-label">Correo Eléctronico</label>
+                        <input type="email" id="email-usuario" name="email-usuario" class="formInversion-formulario-input" required>
+
+                        <label><input type="checkbox" id="checkbox" name="checkbox" class="formInversion-formulario-input" required>Aceptas y otorgas tu autorización para el tratamiento de datos personales en los términos que aparecen a continuación <a href="#" class="formInversion-formulario-checkbox-terminos">aquí</a></label>
+
+                        <input type="submit" value="Enviar" class="formInversion-formulario-btnSubmit">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footerPrincipal">
+        <div class="container">
+            <div class="footerPrincipal-logoPrincipal">
+                <img src="imagenes/logo_valenti.svg" alt="Logo Valenti Apartamentos">
+            </div>
+            <section class="footerPrincipal-contacto">
+                <div class="footerPrincipal-contacto-item">
+                    <img class="footerPrincipal-contacto-item-pin" src="imagenes/location_pin.svg" alt="Logo ubicación en mapa">
+                    <h3>Dirección</h3>
+                    <p>Kra. 93#54 - 28 sur Bogotá</p>
+                </div>
+                <div class="footerPrincipal-contacto-item">
+                    <img class="footerPrincipal-contacto-item-pin" src="imagenes/email_pin.svg" alt="Logo correo electronico">
+                    <h3>Email</h3>
+                    <p>jefe.valenti@grupovalor.com</p>
+                </div>
+
+                <div class="footerPrincipal-contacto-item">
+                    <img class="footerPrincipal-contacto-item-pin" src="imagenes/telefono_pin.svg" alt="Logo teléfono">
+                    <h3>Teléfono</h3>
+                    <p>+57 3168660849</p>
+                </div>
+
+                <div class="footerPrincipal-contacto-item">
+                    <img class="footerPrincipal-contacto-item-pin" src="imagenes/web_pin.svg" alt="Logo portal web">
+                    <h3>Página</h3>
+                    <a href="https://www.proyectovalenti.com" target="_blank" class="footerPrincipal-contacto-item-pin-pagina"><p>www.proyectovalenti.com</p></a>
+                </div>
+            </section>
+
+            <section class="footerPrincipal-colaboradores">
+                <img src="imagenes/colaboradores.svg" alt="Imagen colaboradores Valenti Apartamentos" class="imagenBanner">
+            </section>
+
+            <section class="footerPrincipal-redesSociales">
+                <div class="container">
+                    <div class="footerPrincipal-redesSociales-titulo">
+                        <h3>Sé parte de nuestra comunidad en redes sociales</h3>
+                    </div>
+                    <div class="footerPrincipal-redesSociales-icon">
+                        <img src="imagenes/facebook_icon.svg" alt="Logo Facebook" class="footerPrincipal-redesSociales-icon-logo">
+                    </div>
+                </div>
+            </section>
+
+            <section class="footerPrincipal-derechos">
+                <div class="container">
+                    <p>&#9400 2022 - PROYECTO VALENTI. TODOS LOS DERECHOS RESERVADOS. LAS IMÁGENES DIGITALES, IMPRESAS Y LOS INMUEBLES EN EXHIBICIÓN SON REPRESENTACIONES DEL DISEÑO Y PUEDEN VARIAR RESPECTO DE SU CONSTRUCCIÓN FINAL. LAS ÁREAS SON APROXIMADAS, SU DISEÑO DEFINITIVO CORRESPONDE A LOS PLANOSAPROBADOS POR LA CURADURÍA URBANA.</p>
+                    <a href="#"><p>POLÍTICAS DE PRIVACIDAD</p></a>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>

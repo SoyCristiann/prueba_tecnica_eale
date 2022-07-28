@@ -1,0 +1,53 @@
+@media (max-width: 768px){
+    
+    .headerPrincipal .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal-titulo{
+        justify-content: center;
+    }
+
+    .headerPrincipal-nav{
+        flex-direction: column;
+        margin: 1em 0;
+    }
+
+    .headerPrincipal-nav-link{
+        padding: 0.5em;
+    }
+
+    .videoSobre-descripcion-titulo, .videoSobre-descripcion-complemento{
+        padding: 0;
+    }
+
+    .videoSobre-video{
+        position: inherit;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0.5em;
+    }
+
+    .video-videoProyecto{   
+        max-width: 100%;
+    }
+
+    .videoSobre-logo_whatsapp{
+        visibility: hidden;
+    }
+
+    .formInversion-formulario-btnSubmit{
+        width: 80%;
+    }
+
+    .formInversion-formulario{
+        width: 90%;
+    }
+
+    .footerPrincipal-contacto{
+        flex-wrap: wrap;
+    }
+}
